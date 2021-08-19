@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P & D</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;500;700;900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header><h1>Porcentaje y Descuentos</h1></header>
+    <main>
+        <div class="caja">
+            <form action="">
+                <h2>Calculado de descuento</h2>
+                <img src="shopping.png" alt="carrito">
+                <label for="inputPrice">Escribe el precio del producto</label>
+                <input type="number" name="" id="inputPrice">
+                <label for="inputDiscount">Cupon de descuento</label>
+                <input type="text" name="" id="inputDiscount">
+                <button type="button" onclick="priceDiscount()">Calcular</button>
+                <label for="">Resultado</label>
+                <div class="resultado">
+                    <p id="result" class="resultado-descuento"></p>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="descuentos.js"></script>
+</body>
+</html>
